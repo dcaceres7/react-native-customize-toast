@@ -1,6 +1,6 @@
 {
   "name": "react-native-customize-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fully customize toast both for andorid and iOS",
   "main": "index.js",
   "scripts": {
