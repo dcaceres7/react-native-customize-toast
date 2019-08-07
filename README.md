@@ -2,16 +2,19 @@
 React Native customize toast both for android and iOS
 
 # Installation
+```js
 npm install react-native-customize-toast --save
+```
 
 # Properties
+```js
 backgroundColor={"#4CAF50"}  
 textColor={"#fff"}  
 position={"top"} //default position={"bottom"} 
+```
 
 # ScreenShots
-
-
+<img src="/screenshot/Screenshot_2.png"  width="520" height="720">
 
 # Usages Example
 ```js
