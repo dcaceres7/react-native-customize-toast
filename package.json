@@ -1,0 +1,29 @@
+{
+  "name": "react-native-customize-toast",
+  "version": "1.0.0",
+  "description": "Fully customize toast both for andorid and iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bijoycse/react-native-customize-toast.git"
+  },
+  "keywords": [
+    "react-native-toast",
+    "react-native",
+    "react",
+    "native",
+    "toast",
+    "react",
+    "native",
+    "components"
+  ],
+  "author": "Bijoy Mohanta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bijoycse/react-native-customize-toast/issues"
+  },
+  "homepage": "https://github.com/bijoycse/react-native-customize-toast#readme"
+}
