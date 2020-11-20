@@ -73,7 +73,7 @@ export default class CustomToast extends Component {
     if (this.state.ShowToast) {
       return (
         <Animated.View style={[styles.animatedToastView, { opacity: this.animateOpacityValue, top: (this.props.position == 'top') ? '10%' : '90%', backgroundColor: this.props.backgroundColor }]}>
-          <Text numberOfLines={1} style={[styles.ToastBoxInsideText, { color: this.props.textColor }]}>{this.ToastMessage}</Text>
+          <Text numberOfLines={1} style={[styles.ToastBoxInsideText, { color: this.props.textColor, fontSize: this.props.fontSize }]}>{this.ToastMessage}</Text>
         </Animated.View>
       );
     }
@@ -90,6 +90,7 @@ CustomToast.propTypes = {
     'top',
     'bottom'
   ]),
+  fontSize:PropTypes.number,
   textColor: PropTypes.string
 };
 
@@ -98,6 +99,7 @@ CustomToast.defaultProps = {
   backgroundColor: '#fffc00',
   position: 'bottom',
   textColor: '#000',
+  fontSize: 12,
 
 }
 
